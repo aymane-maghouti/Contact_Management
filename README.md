@@ -15,7 +15,7 @@
 ---
 
 ## Project Overview
-This project is a desktop application developed using `Java` and `JavaFX` frameWork for managing contacts and groups. It utilizes the `JDBC`  (Java Database Connectivity) API for interacting with a `MySQL` database. The application is built as a `Maven` project and can be easily imported and managed in `IntelliJ IDEA`.
+This project is a desktop application developed using `Java` and `JavaFX` frameWork for managing contacts and groups. It utilizes the `JDBC`  (Java Database Connectivity) API for interacting with a `MySQL` database.The application provides a log.txt file for tracking its logs, which is implemented using `Log4j`.The application is built as a `Maven` project and can be easily imported and managed in `IntelliJ IDEA`.
 
 ---
 ![Texte alternatif de l'image](Main/assets/tools.png)
