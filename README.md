@@ -116,6 +116,9 @@ Mainly there are three interface
 
 ![Texte alternatif de l'image](Main/assets/about.png)
 
+
+If you want to see how it's work, check the linkedin post where there is a vedio explain how to use, here it is the link of the post [https://www.linkedin.com/feed/update/urn:li:activity:7083578564129771520/]
+
 ---
 
 # Acknowledgments
