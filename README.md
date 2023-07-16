@@ -50,7 +50,7 @@ The application follows a layered architecture pattern to ensure separation of c
 ---
 ![Texte alternatif de l'image](Main/assets/architecture.png)
 ---
-## Prerequisites
+# Prerequisites
 To run the application, ensure you have the following:
 
 `Java Development Kit (JDK)`: Install JDK on your system and configure it in IntelliJ IDEA.
@@ -59,7 +59,7 @@ To run the application, ensure you have the following:
 
 ---
 
-## Installation and Configuration
+# Installation and Configuration
 To set up the project in IntelliJ IDEA, follow these steps:
 
 `Clone` or download the project from the repository.
@@ -69,7 +69,7 @@ IntelliJ IDEA will automatically detect the `Maven` project and import the neces
 
 ---
 
-## Database Configuration
+# Database Configuration
 To configure the `MySQL database` connection, follow these steps:
 
 Open the project in IntelliJ IDEA.
@@ -83,7 +83,7 @@ Open the conf.properties file and update the following properties with your MySQ
 
 ---
 
-## Running the Application
+# Running the Application
 To run the application in IntelliJ IDEA, follow these steps:
 
 Open the project in IntelliJ IDEA.
@@ -93,7 +93,7 @@ When launching the application, the database and its tables will be automaticall
 
 ---
 
-## Usage
+# Usage
 Once the application is running, you will be presented with the main graphical user interface. Use the provided buttons, menus, and input fields to interact with the application and perform various operations such as adding contacts, creating groups, searching for contacts, etc.
 
 Mainly there are three interface
@@ -112,7 +112,7 @@ Mainly there are three interface
 
 ---
 
-## Acknowledgments
+# Acknowledgments
 We would like to express our gratitude to the following resources for their valuable contributions to this project:
 
 The official documentation of Java Development Kit `(JDK)` and `JavaFX`.
@@ -121,9 +121,4 @@ The `Scene Builder` documentation, which aided in creating the graphical user in
 The application interface is inspired from an existing application. Here is the link to the GitHub repository of the application [https://github.com/marcoman2/EmployeeManagementSystem]
 
 Feel free to customize the content and functionality of this application according to your specific requirements. You can modify the user interface, add additional features, or integrate it with other systems or APIs. The project is designed to be flexible and adaptable, allowing you to tailor it to your needs.
-
-
-
-
-
 
