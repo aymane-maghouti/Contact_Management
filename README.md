@@ -20,7 +20,8 @@ This project is a desktop application developed using `Java` and `JavaFX` frameW
 ---
 ![Texte alternatif de l'image](Main/assets/tools.png)
 ---
-## Features
+
+# Features
 The application offers the following key features:
 
 `Contact Management`: Users can create, update, and delete contacts. They can input contact information such as name, phone number, email address, etc.
@@ -35,7 +36,7 @@ The application offers the following key features:
 
 ---
 
-## Architecture
+# Architecture
 The application follows a layered architecture pattern to ensure separation of concerns and maintainability. The architecture consists of the following layers:
 
 `Database Layer`: This layer represents the database and handles all interactions with the MySQL database. It includes the implementation of the JDBC API for executing queries, updates, and managing database connections.
