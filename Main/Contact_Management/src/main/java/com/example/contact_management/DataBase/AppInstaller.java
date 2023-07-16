@@ -40,7 +40,7 @@ public class AppInstaller {
             stmt.executeUpdate(sql);
         }
 
-        LOGGER.info("la base de donnes est cree correctement");
+        LOGGER.info("The database is created correctly");
 
     }
     public static  boolean checkIfAlreadyInstalled() throws DataBaseException {

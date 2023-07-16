@@ -1,8 +1,13 @@
-2023-07-16 00:22:14,949  INFO [Contact] le contact maghouti aymane a ete modifie
-2023-07-16 00:22:39,634  INFO [Contact] le contact maghouti aymane a ete modifie
-2023-07-16 00:23:38,023  INFO [GroupeDB] le groupe civilien a ete supprimee
-2023-07-16 00:23:41,193  INFO [GroupeDB] le groupe ma a ete supprimee
-2023-07-16 00:23:44,098  INFO [GroupeDB] le groupe info a ete supprimee
-2023-07-16 00:23:49,146  INFO [GroupeDB] le groupe outmani a ete supprimee
-2023-07-16 00:23:52,402  INFO [GroupeDB] le groupe maghouti a ete supprimee
-2023-07-16 00:24:10,009  INFO [GroupeDB] le groupe maghouti-Group a ete cree
+2023-07-16 10:57:23,883  INFO [Contact] app start
+2023-07-16 10:57:24,474  INFO [AppInstaller] The database is created correctly
+2023-07-16 10:58:42,878  INFO [Contact] Contact maghouti aymane is created successfully 
+2023-07-16 10:58:57,006  INFO [Contact] The contact maghouti aymane is updated successfully
+2023-07-16 11:00:11,870  INFO [Contact] app start
+2023-07-16 11:01:15,961  INFO [Contact] Contact maghouti musatapha is created successfully 
+2023-07-16 11:01:39,850  INFO [Contact] The contact maghouti musatapha is deleted successfully 
+2023-07-16 11:02:02,720  INFO [GroupeDB] Thr group Info is created successfully
+2023-07-16 11:02:11,486  INFO [GroupeDB] the automatic creation of the groups has been realized out successfully
+2023-07-16 11:02:23,340  INFO [GroupeDB] Group Info is deleted successfully
+2023-07-16 11:02:30,442  INFO [GroupeDB] Thr group ID is created successfully
+2023-07-16 11:02:45,080  INFO [GroupeDB] Contact maghouti aymane is added successfully to the group  ID
+2023-07-16 11:02:58,129  INFO [Contact] stopping the app

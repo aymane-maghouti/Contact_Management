@@ -89,12 +89,12 @@ public class ContactDB {
                 statement.executeUpdate();
                 Logger var10000 = LOGGER;
                 var10001 = contact.getNom();
-                var10000.info("Contact " + var10001 + " " + contact.getPrenom() + " a ete cree ");
+                var10000.info("Contact " + var10001 + " " + contact.getPrenom() + " is created successfully ");
             } else {
-                LOGGER.error("Erreur de creation du Contact ");
+                LOGGER.error("Error: creation of Contact ");
                 PrintStream var4 = System.out;
                 var10001 = contact.getNom();
-                var4.println("ce contact est deja existe ! avec le nom Complete " + var10001 + " " + contact.getPrenom());
+                var4.println("This Contact is already exist ! with the full name  " + var10001 + " " + contact.getPrenom());
             }
 
         } catch (Exception var3) {
@@ -110,13 +110,13 @@ public class ContactDB {
                 PreparedStatement statement = conn.prepareStatement("delete FROM contact WHERE id_contact = ?;");
                 statement.setInt(1, returnId(nom, prenom));
                 statement.executeUpdate();
-                LOGGER.info("le contact " + nom + " " + prenom + " a ete supprime");
+                LOGGER.info("The contact " + nom + " " + prenom + " is deleted successfully ");
                 return true;
             } else {
                 return false;
             }
         } catch (Exception var4) {
-            LOGGER.error("Erreur de suppression du contact");
+            LOGGER.error("Error : delete contact");
             throw new DataBaseException(var4);
         }
     }
@@ -173,9 +173,9 @@ public class ContactDB {
             statement.executeUpdate();
             Logger var10000 = LOGGER;
             String var10001 = contact.getNom();
-            var10000.info("le contact " + var10001 + " " + contact.getPrenom() + " a ete modifie");
+            var10000.info("The contact " + var10001 + " " + contact.getPrenom() + " is updated successfully");
         } catch (Exception var4) {
-            LOGGER.error("Erreur de modification du contact");
+            LOGGER.error("Error : Update Contact");
             throw new DataBaseException(var4);
         }
     }

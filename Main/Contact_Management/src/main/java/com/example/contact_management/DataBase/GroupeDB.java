@@ -22,9 +22,9 @@ public class GroupeDB {
             PreparedStatement statement = conn.prepareStatement("insert into groupe(nom) values(?)");
             statement.setString(1, groupe.getNom());
             statement.executeUpdate();
-            LOGGER.info("le groupe " + groupe.getNom() + " a ete cree");
+            LOGGER.info("Thr group " + groupe.getNom() + " is created successfully");
         } catch (Exception var3) {
-            LOGGER.error("Erreur de creation du groupe");
+            LOGGER.error("Error : create group");
             throw new DataBaseException(var3);
         }
     }
@@ -69,10 +69,10 @@ public class GroupeDB {
             Connection conn = DataBaseConnection.getConnection();
             int idc = ContactDB.returnId(nomc, prenomc);
             if (idc == -1) {
-                LOGGER.error("Erreur d'ajout  d'un contact dans le groupe" + nomg + " (le contact avec le nom complete :" + nomc + " " + prenomc + " n'exsite pas )");
+                LOGGER.error("Error adding a contact to the group" + nomg + " (contact with full name :" + nomc + " " + prenomc + " does not exist! )");
                 return 2;
             } else if (searchGroupeByName(nomg) == null) {
-                LOGGER.error("Erreur d'ajout  du contact " + nomc + " " + prenomc + " dans un groupe  (le groupe avec le nom  :" + nomg + " n'exsite pas )");
+                LOGGER.error("Error adding a contact " + nomc + " " + prenomc + " to the group  (Group with  name :" + nomg + " does not exist! )");
                 return 0;
             } else if (searchGroupeByName(nomg) != null) {
                 int idg = searchGroupeByName(nomg).getId_groupe();
@@ -80,14 +80,14 @@ public class GroupeDB {
                 statement_update.setInt(1, idc);
                 statement_update.setInt(2, idg);
                 statement_update.executeUpdate();
-                LOGGER.info("le contact " + nomc + " " + prenomc + " a ete ajoutee dans le groupe " + nomg);
+                LOGGER.info("Contact " + nomc + " " + prenomc + " is added successfully to the group  " + nomg);
                 return 1;
             } else {
-                LOGGER.error("Erreur d'ajout  du contact " + nomc + " " + prenomc + " dans un groupe  (le groupe avec le nom  :" + nomg + " n'exsite pas )");
+                LOGGER.error("Error adding a contact " + nomc + " " + prenomc + " to the group  (Group with  name :" + nomg + " does not exist! )");
                 return 0;
             }
         } catch (Exception var7) {
-            LOGGER.error("Erreur d'ajout  d'un contact dans un groupe");
+            LOGGER.error("Error: add contact to group ");
             throw new DataBaseException(var7);
         }
     }
@@ -100,14 +100,14 @@ public class GroupeDB {
                 Groupe_ContactDB.deletegroupefromgroupe_contact(idGroupe);
                 PreparedStatement statement2 = conn.prepareStatement("delete from groupe where id_groupe=? ");
                 statement2.setInt(1, idGroupe);
-                LOGGER.info("le groupe " + nom_groupe + " a ete supprimee");
+                LOGGER.info("Group " + nom_groupe + " is deleted successfully");
                 statement2.executeUpdate();
                 return 1;
             } else {
                 return 0;
             }
         } catch (Exception var4) {
-            LOGGER.error("Erreur de suppression du groupe");
+            LOGGER.error("Error : delete Group");
             throw new DataBaseException(var4);
         }
     }
@@ -155,7 +155,7 @@ public class GroupeDB {
                                 statement2 = conn.prepareStatement("UPDATE groupe_contact SET id_groupe=? WHERE id_contact = ? and id_groupe is null ");
                                 statement2.setInt(1, idG);
                                 statement2.setInt(2, id_contacts.getInt(1));
-                                LOGGER.info("la creation automatique des groupe a ete realisee");
+                                LOGGER.info("the automatic creation of the groups has been realized out successfully");
                                 statement2.executeUpdate();
                             }
                         }
@@ -176,12 +176,12 @@ public class GroupeDB {
                     statement2 = conn.prepareStatement("UPDATE groupe_contact SET id_groupe=? WHERE id_contact =? and id_groupe is null ");
                     statement2.setInt(1, idG);
                     statement2.setInt(2, id_contacts.getInt(1));
-                    LOGGER.info("la creation automatique des groupe a ete realisee");
+                    LOGGER.info("the automatic creation of the groups has been realized out successfully");
                     statement2.executeUpdate();
                 }
             }
         } catch (Exception var11) {
-            LOGGER.error("Erreur de creation automatique des groupes");
+            LOGGER.error("Error : the automatic creation of groups");
             throw new DataBaseException(var11);
         }
     }

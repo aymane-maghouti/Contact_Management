@@ -19,6 +19,7 @@ import javafx.scene.input.KeyEvent;
 import javafx.scene.input.MouseEvent;
 import javafx.scene.layout.AnchorPane;
 import javafx.stage.Stage;
+import org.apache.log4j.Logger;
 
 import java.net.URL;
 import java.sql.Connection;
@@ -33,6 +34,8 @@ import static com.example.contact_management.DataBase.ContactDB.*;
 import static com.example.contact_management.DataBase.GroupeDB.*;
 
 public class Controller implements Initializable {
+    private static final Logger LOGGER = Logger.getLogger(Contact.class);
+
     @FXML
     private Button AC_group_add;
 
@@ -217,6 +220,7 @@ public class Controller implements Initializable {
 
     @FXML
     public void close(ActionEvent event) {
+        LOGGER.info("stopping the app");
         System.exit(0);
     }
 

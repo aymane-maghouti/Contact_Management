@@ -3,7 +3,7 @@ package com.example.contact_management.DataBase;
 public class DataBaseException extends Exception {
 
     public DataBaseException() {
-        super("Erreur base de données");
+        super("Error : database error");
     }
 
     public DataBaseException(Throwable ex) {
