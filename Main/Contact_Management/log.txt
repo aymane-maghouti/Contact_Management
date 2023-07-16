@@ -1,0 +1,8 @@
+2023-07-16 00:22:14,949  INFO [Contact] le contact maghouti aymane a ete modifie
+2023-07-16 00:22:39,634  INFO [Contact] le contact maghouti aymane a ete modifie
+2023-07-16 00:23:38,023  INFO [GroupeDB] le groupe civilien a ete supprimee
+2023-07-16 00:23:41,193  INFO [GroupeDB] le groupe ma a ete supprimee
+2023-07-16 00:23:44,098  INFO [GroupeDB] le groupe info a ete supprimee
+2023-07-16 00:23:49,146  INFO [GroupeDB] le groupe outmani a ete supprimee
+2023-07-16 00:23:52,402  INFO [GroupeDB] le groupe maghouti a ete supprimee
+2023-07-16 00:24:10,009  INFO [GroupeDB] le groupe maghouti-Group a ete cree
