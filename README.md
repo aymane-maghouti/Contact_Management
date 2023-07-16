@@ -75,11 +75,17 @@ To configure the `MySQL database` connection, follow these steps:
 Open the project in IntelliJ IDEA.
 Locate the configuration file named conf.properties in the project's resource folder.
 Open the conf.properties file and update the following properties with your MySQL database credentials:
+
 `db.name`: Specify the name of the database (default: Contact_Mana).
+
 `db.url`: Provide the JDBC URL for connecting to your MySQL server (default: jdbc:mysql://localhost:3306/).
+
 `db.login`: Enter the MySQL username (default: root).
+
 `db.password`: Enter the MySQL password (default:).
+
 `db.driver`: Specify the JDBC driver class (default: com.mysql.cj.jdbc.Driver).
+
 
 ---
 
