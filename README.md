@@ -117,7 +117,7 @@ Mainly there are three interfaces
 ![Texte alternatif de l'image](Main/assets/about.png)
 
 
-If you want to see how it's work, check the linkedin post where there is a vedio explain how to use it, here it is the link of the post [https://www.linkedin.com/feed/update/urn:li:activity:7083578564129771520/]
+If you want to see how it's work, check the linkedin post where there is a vedio explain how to use it, ckick [here](#https://www.linkedin.com/feed/update/urn:li:activity:7083578564129771520/)
 
 ---
 
