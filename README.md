@@ -102,7 +102,7 @@ When launching the application, the database and its tables will be automaticall
 # Usage
 Once the application is running, you will be presented with the main graphical user interface. Use the provided buttons, menus, and input fields to interact with the application and perform various operations such as adding contacts, creating groups, searching for contacts, etc.
 
-Mainly there are three interface
+Mainly there are three interfaces
 
 #### Inerface 1 : `Contact`
 
