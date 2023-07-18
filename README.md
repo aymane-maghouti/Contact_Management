@@ -53,17 +53,17 @@ The application follows a layered architecture pattern to ensure separation of c
 # Prerequisites
 To run the application, ensure you have the following:
 
-`Java Development Kit (JDK)`: Install JDK on your system and configure it in IntelliJ IDEA.
-`MySQL Database`: Set up a MySQL server and ensure it is running properly.
-`IntelliJ IDEA`: Install IntelliJ IDEA, the integrated development environment for Java.
+`Java Development Kit (JDK)`: Install JDK on your system and configure it in IntelliJ IDEA.\
+`MySQL Database`: Set up a MySQL server and ensure it is running properly.\
+`IntelliJ IDEA`: Install IntelliJ IDEA, the integrated development environment for Java.\
 
 ---
 
 # Installation and Configuration
 To set up the project in IntelliJ IDEA, follow these steps:
 
-`Clone` or download the project from the repository.
-Open IntelliJ IDEA and select "Open" from the initial screen or go to "File" > "Open" in the menu.
+`Clone` or download the project from the repository.\\
+Open IntelliJ IDEA and select "Open" from the initial screen or go to "File" > "Open" in the menu.\\
 Navigate to the project directory and select the root folder of the project.
 IntelliJ IDEA will automatically detect the `Maven` project and import the necessary dependencies [probably you have to reload the maven project].
 
