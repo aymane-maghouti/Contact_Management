@@ -136,8 +136,11 @@ If you want to see how it's work, check the linkedin post where there is a vedio
 We would like to express our gratitude to the following resources for their valuable contributions to this project:
 
 The official documentation of Java Development Kit `(JDK)` and `JavaFX`.
+
 The documentation provided by `MySQL` for configuring and working with the database.
+
 The `Scene Builder` documentation, which aided in creating the graphical user interface.
+
 The application interface is inspired from an existing application. Here is the link to the GitHub repository of the application [https://github.com/marcoman2/EmployeeManagementSystem]
 
 Feel free to customize the content and functionality of this application according to your specific requirements. You can modify the user interface, add additional features, or integrate it with other systems or APIs. The project is designed to be flexible and adaptable, allowing you to tailor it to your needs.
