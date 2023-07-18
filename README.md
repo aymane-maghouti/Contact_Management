@@ -53,18 +53,23 @@ The application follows a layered architecture pattern to ensure separation of c
 # Prerequisites
 To run the application, ensure you have the following:
 
-`Java Development Kit (JDK)`: Install JDK on your system and configure it in IntelliJ IDEA.\
-`MySQL Database`: Set up a MySQL server and ensure it is running properly.\
-`IntelliJ IDEA`: Install IntelliJ IDEA, the integrated development environment for Java.\
+`Java Development Kit (JDK)`: Install JDK on your system and configure it in IntelliJ IDEA.
+
+`MySQL Database`: Set up a MySQL server and ensure it is running properly.
+
+`IntelliJ IDEA`: Install IntelliJ IDEA, the integrated development environment for Java.
 
 ---
 
 # Installation and Configuration
 To set up the project in IntelliJ IDEA, follow these steps:
 
-`Clone` or download the project from the repository.\\
-Open IntelliJ IDEA and select "Open" from the initial screen or go to "File" > "Open" in the menu.\\
+`Clone` or download the project from the repository.
+
+Open IntelliJ IDEA and select "Open" from the initial screen or go to "File" > "Open" in the menu.
+
 Navigate to the project directory and select the root folder of the project.
+
 IntelliJ IDEA will automatically detect the `Maven` project and import the necessary dependencies [probably you have to reload the maven project].
 
 ---
@@ -73,7 +78,9 @@ IntelliJ IDEA will automatically detect the `Maven` project and import the neces
 To configure the `MySQL database` connection, follow these steps:
 
 Open the project in IntelliJ IDEA.
+
 Locate the configuration file named conf.properties in the project's resource folder.
+
 Open the conf.properties file and update the following properties with your MySQL database credentials:
 
 `db.name`: Specify the name of the database (default: Contact_Mana).
@@ -93,8 +100,11 @@ Open the conf.properties file and update the following properties with your MySQ
 To run the application in IntelliJ IDEA, follow these steps:
 
 Open the project in IntelliJ IDEA.
+
 Locate the main class (usually named Application or Main) within the project structure.
+
 Right-click on the main class and select "Run" from the context menu.
+
 When launching the application, the database and its tables will be automatically created if they do not already exist.
 
 ---
@@ -117,7 +127,8 @@ Mainly there are three interfaces
 ![Texte alternatif de l'image](Main/assets/about.png)
 
 
-If you want to see how it's work, check the linkedin post where there is a vedio explain how to use it, here it is the link of the post [https://www.linkedin.com/feed/update/urn:li:activity:7083578564129771520/]
+If you want to see how it's work, check the linkedin post where there is a vedio explain how to use it, here it is the link of the post :
+a href="https://www.linkedin.com/feed/update/urn:li:activity:7086787315267723264/" target="_blank">Click here</a>
 
 ---
 
