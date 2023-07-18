@@ -3,14 +3,14 @@
 ## Table of Contents
 
 - [Project Overview](#project-overview)
-- [Features](#Features)
-- [Architecture](#Architecture)
-- [Prerequisites](#Prerequisites)
-- [Installation and Configuration](#Installation-and-Configuration)
-- [Database Configuration](#Database-Configuration)
-- [Running the Application](#Running-the-Application)
-- [Usage](#Usage)
-- [Acknowledgments](#Acknowledgments)
+- [Features](#features)
+- [Architecture](#architecture)
+- [Prerequisites](#prerequisites)
+- [Installation and Configuration](#installation-and-configuration)
+- [Database Configuration](#database-configuration)
+- [Running the Application](#running-the-application)
+- [Usage](#usage)
+- [Acknowledgments](#acknowledgments)
   
 ---
 
