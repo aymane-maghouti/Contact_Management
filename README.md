@@ -128,7 +128,7 @@ Mainly there are three interfaces
 
 
 If you want to see how it's work, check the linkedin post where there is a vedio explain how to use it, here it is the link of the post :
-<a href="https://www.linkedin.com/feed/update/urn:li:activity:7086787315267723264/" target="_blank">Click here</a>
+<a href="https://www.linkedin.com/posts/aymane-maghouti_java-javafx-jdbc-activity-7089920578375012352-75-P?utm_source=share&utm_medium=member_desktop" target="_blank">Click here</a>
 
 ---
 
